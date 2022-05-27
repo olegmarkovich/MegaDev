@@ -1,0 +1,68 @@
+﻿body {
+    background-color: rgba(3, 22, 58, 1);
+    color: var(--light);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 36pt;
+    font-weight: bolder;
+}
+
+.card {
+    background-color: rgba(0,0,0,0);
+    font-size: .9rem;
+    border-right: 2px solid;
+    border-right-color: var(--gray);
+    border-radius: 0;
+    border-top:0;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.card .card-body {
+    padding-left: 0;
+}
+
+.card .card-img-top {
+    border: 1px solid;
+    border-color: var(--light);
+    min-width: 100% !important;
+    border-radius: .25rem;
+}
+
+.card .scheduled-date {
+    color: var(--gray);
+    font-size: .8rem;
+    font-weight: bolder;
+}
+
+.card .card-title {
+    text-transform: uppercase;
+}
+
+.card:last-child, .card.third {
+    border: none;
+}
+
+.w-100.lane {
+    border-top: 2px solid;
+    border-color: var(--gray);
+    margin: 1em 0 2em 0;
+}
+
+.card-footer a.btn {
+    font-size: 1.5rem;
+    border: 0;
+    position: absolute;
+    margin: 0;
+    bottom: 10px;
+    right: 3px;
+}
+
+.card-footer {
+    border: 0;
+}
